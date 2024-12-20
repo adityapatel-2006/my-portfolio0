@@ -1,0 +1,309 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+
+
+header{
+    background-image: url(images/imgbg.jpg);
+/* 
+    background-color: rgb(71, 231, 236); */
+    height: 65vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    
+}
+#logo img{
+    width: 150px;
+}
+nav {
+    display:flex;
+    justify-content: space-between;
+
+    
+
+}
+#option ul{
+    display: flex;
+    gap: 25px;
+    font-size: 25px;
+    margin-right: 15px;
+    color: #b410dd;
+    
+}
+#main-body{
+    margin-right: 100px;
+}
+#body{
+ 
+    margin-top: 30px;
+    gap: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+   
+#body #title{
+    
+    margin-right: 400px;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 50%;
+   
+}
+#title p{
+    
+    font-size: 35px;
+
+    margin-top: 30px;
+}
+#title h1{
+    
+    font-size: 30px;
+    color: #2727cc;
+
+}
+#title h2{
+    
+    font-size: 30px;
+  
+
+}
+span{
+    font-size: 30px;
+}
+
+#img img{
+    height: 70%;
+    width: 40%;
+    margin-left: 70px;
+    border: 1px solid #efefef;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+#mark{
+    border: 1px solid #070606;
+    width: 100%;
+    max-width: 1200px;
+    border-radius:12px ;
+    box-shadow: 15px;
+    display: flex;
+    line-height: 50px;
+    gap: 250px;
+    background-color: #fff;
+    margin-left: 230px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+#ten-th{
+    margin-left: 80px;
+}
+#ten-th p {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    color: #f80015;
+    font-size: 30px;
+
+}
+#ten-th h2 {
+margin-left: 20px;
+margin-right: 25px;
+}
+#ele-th{
+    margin-left: 80px;
+}
+#ele-th p {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    color: #f80015;
+    font-size: 30px;
+
+}
+#twe-th{
+    margin-left: 60px;
+}
+#twe-th p {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 30px;
+}
+ h1{
+    /* background-color:#b410dd; */
+    width: 100%;
+    max-width: 1200px;
+    border: #efefef;
+    margin-left: 100px;
+    margin-right: 150px;
+    margin-top: 50px;
+    border-radius: 12px;
+    color: #2727cc ;
+}
+h2{
+    color: rgb(17, 61, 191);
+}
+#twe-th{
+    color: #f80015;
+}
+
+
+#skill{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    height: 90%;
+    gap: 40px;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin-left: 230px;
+    background-color: #fff;
+}
+
+#skill-first{
+    display: flex;
+    
+}
+#skill-first img{
+    height: 65%;
+    width: 100%;
+    border: 3px solid#000;
+    border-radius: 12px;
+    margin-left: 50px;
+    margin-top: 60px;
+   
+}
+#main-title h1{
+    margin-bottom: 50px;
+    margin-top: 80px; 
+}
+#list-discription{
+    margin-left: 100px;
+}
+#list-discription p{
+ font-size: 25px;
+ color: #2727cc;
+ font-weight: normal;
+ margin-right: 100px;
+ margin-left: 25px;
+
+}
+#title h1{
+    margin-bottom: 100px;
+}
+
+
+
+#ho{
+    width: 100%;
+    max-width: 1200px;
+    border: 1px solid #000;
+    margin-left: 120px;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    background-color: #fff;
+    
+
+    
+}
+#first img{
+    width: 350px;
+    margin-top: 25px;
+    margin-left: 25px;
+    border-radius: 12px;
+    border: 2px solid #000;
+}
+#first{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#first h1{
+    
+    margin-top: 25px;
+    margin-left: 25px;
+}
+#first h2{
+    
+   margin-left: 45px;
+   font-size: 25px;
+}
+#first p{
+    
+    margin-top: 25px;
+    margin-left: 45px;
+    font-size: 20px;
+}
+#main-title h1{
+    color: #2727cc;
+    font-size: 30px;
+}
+#hobbies{
+    margin-bottom: 100px;
+    margin-left: 120px;
+    /* background-color: #fff; */
+}
+
+
+
+#contact{
+    border:1px solid #000;
+    width: 100%;
+    max-width: 1200px;
+    height: 80%;
+    margin-left: 230px;
+    border-radius: 12px;
+    margin-top: 80px;
+    background-color: #fff;
+}
+#whatspp p{
+  
+margin-top: 50px;
+    font-size: 30px;
+}
+#ins p{
+  
+    margin-top: 50px;
+    font-size: 30px;
+}
+#phone p{
+  
+    margin-top: 50px;
+    font-size: 30px;
+}
+#face p{
+    margin-top: 50px;
+    font-size: 30px;
+}
+i{
+    margin-right: 50px;
+    margin-left: 150px;
+    width: 250px;
+    margin-top: 50px;
+}
+#griting h1{
+    font-size: 100px;
+    margin-left: 620px;
+    margin-top: 40px;
+}
+#griting p{
+    font-size: 50px;
+    margin-left: 310px;
+    word-spacing: 10px;
+    color: #ba24ff;
+}
+#con-type{
+    margin-bottom: 30px;
+}
